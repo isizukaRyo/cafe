@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>info</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP|Poiret+One|Prata|Sawarabi+Mincho" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Poiret+One|Prata" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Fredericka+the+Great|League+Script|Thasadith" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Poiret+One" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+</head>
+
+<body class="drawer drawer--right">
+    <header role="banner">
+        <p class="logo">
+            <img src="css/images/logopanda.png" alt="" width="70px;" height="75px;">
+        </p>
+        <!-- ハンバーガーボタン -->
+        <button type="button" class="drawer-toggle drawer-hamburger">
+            <span class="sr-only">toggle navigation</span>
+            <span class="drawer-hamburger-icon"></span>
+        </button>
+        <!-- ナビゲーションの中身 -->
+        <nav class="drawer-nav" role="navigation">
+            <ul class="drawer-menu">
+                <li><a class="drawer-menu-item" href="../../cafetop/index.html">TOP</a></li>
+                <li><a class="drawer-menu-item" href="../about/ex.html">About us</a></li>
+                <li><a class="drawer-menu-item" href="../cafemenu/ex.html">Menu</a></li>
+                <li><a class="drawer-menu-item" href="../ca/ex2.html">Campaign</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main">
+        <main>
+
+            <section class="information_innrer">
+                <h2 class="information_top">Information</h2>
+
+                <p class="img_top"><img src="css/images/IMG_9742.JPG" alt="" width="800px;" height="500px;"></p>
+
+                <section class="title">
+
+                    <h3 class="title_top">常にお客様を思って、純粋な美味しさを提供します。</h3>
+                    <p>私たちcafe・ド・リシャス株式会社はコーヒをメインに一つ上の有意義な時間を提供できるように接客、商品開発、販売販売に取り組んでいます。</p>
+                    <p>安全な食品はもちろんのこと来て良かったなと思ってもらえるよう日々精進して参ります。</p>
+
+
+                    <div class="box">
+                        <dl class="company">
+                            <dt>社名</dt>
+                            <dd class="company_inner">cafe・ド・リシャス株式会社</dd>
+                        </dl>
+
+                        <dl class="start">
+                            <dt>創業</dt>
+                            <dd class="start_inner">平成20年12月</dd>
+                        </dl>
+
+                        <dl class="build">
+                            <dt>設立</dt>
+                            <dd class="bulid_inner">平成22年4月8日</dd>
+                        </dl>
+
+                        <dl class="
+Asset">
+                            <dt>資本金</dt>
+                            <dd class="Asset_inner">4000万</dd>
+                        </dl>
+
+                        <dl class="employee">
+                            <dt>従業員数</dt>
+                            <dd class="employee_inner">1500人</dd>
+                        </dl>
+
+                        <dl>
+                            <dt>本社</dt>
+                            <dd class="base_inner">東京都 </dd>
+                        </dl>
+                    </div>
+
+                </section>
+
+            </section>
+
+        </main>
+        <footer class="Footer">
+            <ul class="footer_list">
+                <li class="footer_inner"><img src="../about/css/images/twitter.png" alt=""></li>
+                <li class="footer_inner"><img src="../about/css/images/faceb.png" alt=""></li>
+
+            </ul>
+            <p>COPYRIGHT ishizuka ALL RIGHTS RESERVED.</p>
+            <p>PHOTOGRAPHY BY ooo　/　DESIGN &amp; DEVELOPED BY ooo.</p>
+        </footer>
+    </main>
+
+    <!-- ドロワーメニューの利用宣言 -->
+    <script>
+        $(document).ready(function() {
+            $('.drawer').drawer();
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.fuwat').css('visibility', 'hidden');
+            $(window).scroll(function() {
+                var windowHeight = $(window).height(),
+                    topWindow = $(window).scrollTop();
+                $('.fuwat').each(function() {
+                    var objectPosition = $(this).offset().top;
+                    if (topWindow > objectPosition - windowHeight + 200) {
+                        $(this).addClass("fuwatAnime");
+                    }
+                });
+            });
+        });
+    </script>
+    <script>
+        $('.h2_top').append(
+            '<style>.h2_top{display:none}');
+        $(window).on("load", function() {
+            $('.h2_top').delay(300).fadeIn("slow");
+        });
+
+        $('.title').append(
+            '<style>.title{display:none}');
+        $(window).on("load", function() {
+            $('.title').delay(300).fadeIn("slow");
+        });
+
+        $('.Footer').append(
+            '<style>.Footer{display:none}');
+        $(window).on("load", function() {
+            $('.Footer').delay(300).fadeIn("slow");
+        });
+    </script>
+</body>
+
+
+
+
+
+
+
+</html>

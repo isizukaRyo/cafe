@@ -1,0 +1,413 @@
+header {
+    height: 75px;
+}
+
+p.logo {
+    text-align: center;
+}
+
+main {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+nav.drawer-nav {
+    background-color: black;
+    width: 200px;
+
+}
+
+.drawer-nav li a {
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+}
+
+
+
+
+
+
+
+
+.line_up h2 {
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+    margin-top: 100px;
+
+
+}
+
+.line_up p {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 100px;
+    color: lightslategray;
+}
+
+
+
+.menu_list {
+    width: 1280px;
+    height: 600px;
+
+    background-color: #f0f0f0;
+
+}
+
+.menu_list h3 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+    letter-spacing: 3px;
+    padding-top: 30px;
+
+}
+
+dl.coffee {
+    float: left;
+    overflow: hidden;
+    width: 350px;
+    margin-left: 70px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+
+
+}
+
+dd.coffee_inner {
+    background-color: white;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+dd.coffee_text {
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+}
+
+dl.cafeore {
+    float: left;
+    overflow: hidden;
+    width: 350px;
+    margin: 0px 50px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+
+}
+
+dd.cafeore_name {
+    background-color: white;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+dd.cafeore_text {
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+}
+
+dl.cafemoka {
+    float: left;
+    overflow: hidden;
+    width: 350px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+
+}
+
+dd.cafemoka_name {
+    background-color: white;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+}
+
+dd.cafemoka_text {
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+}
+
+.lunch_list h3 {
+    font-family: 'Nixie One', cursive;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+
+}
+
+.lunch_list {
+    width: 1280px;
+    height: 600px;
+    background-color: #f0f0f0;
+}
+
+.lunch_list h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-top: 50px;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+
+
+}
+
+dl.hamu {
+    float: left;
+    overflow: hidden;
+    width: 350px;
+    margin-left: 70px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+dd.hamu_name {
+    background-color: white;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+
+}
+
+dd.hamu_text {
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+
+}
+
+dl.blt {
+    float: left;
+    overflow: hidden;
+    width: 350px;
+    margin: 0px 50px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+
+}
+
+dd.blt_name {
+    background-color: white;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+}
+
+dd.blt_text {
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+}
+
+dl.hotdog {
+    float: left;
+    width: 350px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+dd.hotdog_name {
+    background-color: white;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+}
+
+dd.hotdog_text {
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+
+}
+
+.dessert_list {
+    width: 1280px;
+    height: 650px;
+
+    background-color: #f0f0f0;
+}
+
+.dessert_list h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Nixie One', cursive;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 3px;
+    padding-top: 50px;
+
+
+}
+
+
+
+dl.milk {
+    float: left;
+    overflow: hidden;
+    width: 350px;
+    margin-left: 70px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+dd.milk_name {
+    background-color: white;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+}
+
+dd.milk_text {
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+
+}
+
+dl.monb {
+    float: left;
+    overflow: hidden;
+    width: 350px;
+    margin: 0px 50px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+dd.monb_name {
+    background-color: white;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+}
+
+dd.monb_text {
+    background-color: white;
+    height: 100px;
+    text-align: center;
+}
+
+dl.cheese {
+    float: left;
+    overflow: hidden;
+    width: 350px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+dd.ti_name {
+    background-color: white;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+}
+
+dd.ti_text {
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    font-family: 'Poiret One',
+        cursive;
+    font-family: 'Josefin Slab',
+        serif;
+}
+
+footer {
+    width: 1280px;
+    height: 100px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.footer_list {
+    text-align: center;
+    margin-bottom: 10px;
+
+
+}
+
+.footer_inner {
+    margin-top: 20px;
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Josefin Slab', serif;
+}
